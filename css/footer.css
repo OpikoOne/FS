@@ -5,7 +5,7 @@
 .footer__container {
   max-width: 1180px;
   margin: 0 auto;
-  padding: 0px 20px 0px 0px;
+  padding: 0px 20px 0px 20px;
 }
 .footer__content {
   color: white;
@@ -56,6 +56,7 @@
   .footer__content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
   }
   .footer__content_menu {
@@ -64,7 +65,11 @@
     gap: 10px;
     padding-top: 0px;
   }
+  .footer__content_logo {
+    align-items: center;
+  }
   .footer__content_contact {
+    align-items: center;
     padding-top: 0px;
   }
 }/*# sourceMappingURL=footer.css.map */

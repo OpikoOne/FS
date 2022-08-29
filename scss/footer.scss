@@ -5,7 +5,7 @@
   &__container {
     max-width: 1180px;
     margin: 0 auto;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 20px 0px 20px;
   }
 
   &__content {
@@ -67,6 +67,7 @@
     &__content {
       display: flex;
       flex-direction: column;
+      align-items: center;
       gap: 20px;
 
       &_menu {
@@ -76,7 +77,13 @@
         padding-top: 0px;
       }
 
+      &_logo {
+        align-items: center;
+      }
+
+      
       &_contact {
+        align-items: center;
         padding-top: 0px;
       }
     }

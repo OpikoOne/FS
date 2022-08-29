@@ -1,0 +1,91 @@
+.location {
+  padding: 100px 0px 0px 0px;
+}
+
+.info {
+  padding: 130px 0px 130px 0px;
+}
+.info__contact {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 0px 20px;
+}
+.info__contact div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 20px;
+}
+
+.message {
+  padding: 0px 0px 100px 20px;
+  text-align: left;
+}
+.message__form {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+}
+.message__form h3 {
+  font-size: 25px;
+  line-height: 35px;
+}
+.message__form form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  transition: all 0.5s ease-in;
+}
+.message__form form input {
+  height: 55px;
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 320px;
+  font-size: 18px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+.message__form form textarea {
+  height: 130px;
+  width: 443px;
+  border: none;
+  border-bottom: 1px solid #000;
+  font-size: 18px;
+}
+.message__form form div button {
+  background-color: rgb(255, 51, 0);
+  padding: 25px 65px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .info__contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .message__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .message__form form {
+    align-items: center;
+  }
+  .message__form form textarea {
+    width: 320px;
+  }
+}
+@media (max-width: 580px) {
+  .info__contact div {
+    align-items: center;
+  }
+  .message {
+    padding: 0px 0px 100px 0px;
+  }
+}/*# sourceMappingURL=contact.css.map */
