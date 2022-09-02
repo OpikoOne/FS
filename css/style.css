@@ -464,6 +464,11 @@ textarea:focus:-ms-input-placeholder {
     padding-bottom: 20px;
   }
 }
+@media (max-width: 992px) {
+  .title {
+    text-align: center;
+  }
+}
 @media (max-width: 767px) {
   .title {
     padding: 115px 0px 0px 0px;
@@ -643,5 +648,113 @@ textarea:focus:-ms-input-placeholder {
   }
   .message {
     padding: 0px 0px 100px 0px;
+  }
+}
+.catalog {
+  padding: 130px 0px 130px 0px;
+}
+.catalog__menu {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.catalog__menu_item {
+  padding: 19px 64px;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.catalog__menu_item:hover {
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+.catalog__sort {
+  max-width: 250px;
+}
+.catalog__sort .orderby {
+  font-size: 20px;
+  color: #808080;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.catalog__product {
+  padding: 100px 0px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 20px;
+}
+.catalog__product_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  padding-bottom: 10px;
+}
+.catalog__product_card div {
+  width: 350px;
+}
+.catalog__product_card div img {
+  max-width: 100%;
+}
+
+.active-catalog {
+  background-color: black;
+  color: white;
+  font-weight: 400;
+}
+
+@media (max-width: 992px) {
+  .catalog .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 992px;
+  }
+  .catalog__menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  .catalog__menu_item {
+    padding: 14px 30px;
+  }
+  .catalog__product {
+    margin-left: 55px;
+  }
+  .catalog__product_card {
+    width: 315px;
+  }
+  .catalog__product_card div {
+    width: 315px;
+  }
+  .catalog__sort {
+    padding: 0;
+  }
+}
+@media (max-width: 768px) {
+  .catalog__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .catalog__menu_item {
+    padding: 10px 0px 0px 0px;
+    min-width: 300px;
+    height: 50px;
+    text-align: center;
+  }
+  .catalog__product {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
   }
 }/*# sourceMappingURL=style.css.map */
