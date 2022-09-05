@@ -31,6 +31,10 @@ body {
   padding: 0px 20px;
 }
 
+input {
+  border: none;
+}
+
 input:focus {
   outline: none;
 }
@@ -51,6 +55,14 @@ textarea {
 
 ::placeholder {
   font-size: 18px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:active {
+  outline: none;
 }
 
 input::-webkit-input-placeholder {

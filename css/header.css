@@ -55,6 +55,9 @@
 .header__basket {
   z-index: 2;
 }
+.header__basket a {
+  padding-right: 10px;
+}
 .header__burger {
   display: none;
 }

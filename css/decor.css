@@ -1,0 +1,91 @@
+.information-bayer {
+  display: flex;
+  justify-content: space-between;
+  padding: 130px 0px;
+}
+.information-bayer h3 {
+  margin: 82px 0px 15px;
+  font-size: 25px;
+  line-height: 1.15;
+}
+
+.bayer {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.bayer input {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #000;
+  margin-top: 35px;
+  width: 320px;
+  font-size: 18px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+}
+.bayer__data {
+  display: flex;
+  flex-direction: column;
+}
+.bayer__data_form {
+  display: flex;
+  flex-direction: column;
+}
+.bayer__address {
+  display: flex;
+  flex-direction: column;
+}
+.bayer__address_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+}
+.order__bayer_info {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.order__bayer_info_item {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.order__bayer_info_item h4 {
+  margin-top: 33px;
+  font-size: 21px;
+}
+.order__bayer_info_sheet-item {
+  display: flex;
+  gap: 75px;
+}
+.order__bayer_info_total {
+  display: flex;
+  font-size: 20px;
+  gap: 150px;
+  padding: 15px 24px;
+  color: white;
+  background: black;
+}
+.order__bayer_info button {
+  padding: 22px 50px;
+  align-items: center;
+  color: white;
+  font-size: 19px;
+  background: rgb(231, 1, 1);
+  border: none;
+}
+
+@media (max-width: 767px) {
+  .information-bayer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}/*# sourceMappingURL=decor.css.map */

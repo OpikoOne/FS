@@ -68,6 +68,10 @@
 
   &__basket {
     z-index: 2;
+
+    a {
+      padding-right: 10px;
+    }
   }
 
   &__burger {

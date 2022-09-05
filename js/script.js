@@ -6,7 +6,13 @@ $(function() {
   });
 });
 
-document.getElementById("userForm").addEventListener("submit", checkForm)
+const userForm = document.getElementById("userForm");
+
+if (userForm) {
+    userForm.addEventListener("submit", checkForm)
+}
+
+
 function checkForm(event){
     
   event.preventDefault()

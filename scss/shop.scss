@@ -33,6 +33,12 @@
     }
   }
 
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__product {
     padding: 100px 0px 0px 0px;
     display: flex;
