@@ -1,3 +1,58 @@
 .main {
-  padding: 100px 0px 0px 0px;
+  padding: 100px 0px 70px 0px;
+  background-image: url(/img/photo_2021-03-02_21-.jpg);
+  display: flex;
+  flex-direction: row;
+  
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    gap: 10px;
+
+    h1 {
+      max-width: 580px;
+      font-size: 55px;
+      letter-spacing: 0.025em;
+      line-height: 1.1;
+      
+    }
+
+    p {
+      max-width: 384px;
+      font-size: 20px;
+      margin: 47px 0px 52px;
+      line-height: 1.4em;
+      text-align: right;
+    }
+    &_btn {
+      padding: 22px 50px;
+        align-items: center;
+        color: white;
+        font-size: 19px;
+        background: rgb(231, 1, 1);
+        border: none;
+
+      a {
+        text-align: center;
+
+
+        font-size: 17px;
+        color: #fff;
+      }
+    }
+    
+  }
+
+  &__img {
+    
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+@media(max-width:1200px) {
+
 }
